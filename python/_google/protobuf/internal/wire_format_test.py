@@ -34,8 +34,8 @@ __author__ = 'robinson@google.com (Will Robinson)'
 
 import unittest
 
-from google.protobuf import message
-from google.protobuf.internal import wire_format
+from _google.protobuf import message
+from _google.protobuf.internal import wire_format
 
 
 class WireFormatTest(unittest.TestCase):

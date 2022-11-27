@@ -83,10 +83,10 @@ __author__ = 'kenton@google.com (Kenton Varda)'
 import math
 import struct
 
-from google.protobuf.internal import containers
-from google.protobuf.internal import encoder
-from google.protobuf.internal import wire_format
-from google.protobuf import message
+from _google.protobuf.internal import containers
+from _google.protobuf.internal import encoder
+from _google.protobuf.internal import wire_format
+from _google.protobuf import message
 
 
 # This is not for optimization, but rather to avoid conflicts with local

@@ -33,8 +33,8 @@
 import unittest
 
 
-from google.protobuf.internal import more_messages_pb2
-from google.protobuf import descriptor_pool
+from _google.protobuf.internal import more_messages_pb2
+from _google.protobuf import descriptor_pool
 
 
 class KeywordsConflictTest(unittest.TestCase):

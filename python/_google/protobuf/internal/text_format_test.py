@@ -39,23 +39,23 @@ import textwrap
 
 import unittest
 
-from google.protobuf import any_pb2
-from google.protobuf import struct_pb2
-from google.protobuf import descriptor_pb2
-from google.protobuf.internal import any_test_pb2 as test_extend_any
-from google.protobuf.internal import api_implementation
-from google.protobuf.internal import message_set_extensions_pb2
-from google.protobuf.internal import test_proto3_optional_pb2
-from google.protobuf.internal import test_util
-from google.protobuf import descriptor_pool
-from google.protobuf import text_format
-from google.protobuf.internal import _parameterized
-from google.protobuf import any_test_pb2
-from google.protobuf import map_unittest_pb2
-from google.protobuf import unittest_mset_pb2
-from google.protobuf import unittest_custom_options_pb2
-from google.protobuf import unittest_pb2
-from google.protobuf import unittest_proto3_arena_pb2
+from _google.protobuf import any_pb2
+from _google.protobuf import struct_pb2
+from _google.protobuf import descriptor_pb2
+from _google.protobuf.internal import any_test_pb2 as test_extend_any
+from _google.protobuf.internal import api_implementation
+from _google.protobuf.internal import message_set_extensions_pb2
+from _google.protobuf.internal import test_proto3_optional_pb2
+from _google.protobuf.internal import test_util
+from _google.protobuf import descriptor_pool
+from _google.protobuf import text_format
+from _google.protobuf.internal import _parameterized
+from _google.protobuf import any_test_pb2
+from _google.protobuf import map_unittest_pb2
+from _google.protobuf import unittest_mset_pb2
+from _google.protobuf import unittest_custom_options_pb2
+from _google.protobuf import unittest_pb2
+from _google.protobuf import unittest_proto3_arena_pb2
 # pylint: enable=g-import-not-at-top
 
 

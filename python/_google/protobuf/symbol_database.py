@@ -58,9 +58,9 @@ Example usage::
 """
 
 
-from google.protobuf.internal import api_implementation
-from google.protobuf import descriptor_pool
-from google.protobuf import message_factory
+from _google.protobuf.internal import api_implementation
+from _google.protobuf import descriptor_pool
+from _google.protobuf import message_factory
 
 
 class SymbolDatabase(message_factory.MessageFactory):

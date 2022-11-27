@@ -32,12 +32,12 @@
 
 import unittest
 
-from google.protobuf import field_mask_pb2
-from google.protobuf.internal import field_mask
-from google.protobuf.internal import test_util
-from google.protobuf import descriptor
-from google.protobuf import map_unittest_pb2
-from google.protobuf import unittest_pb2
+from _google.protobuf import field_mask_pb2
+from _google.protobuf.internal import field_mask
+from _google.protobuf.internal import test_util
+from _google.protobuf import descriptor
+from _google.protobuf import map_unittest_pb2
+from _google.protobuf import unittest_pb2
 
 
 class FieldMaskTest(unittest.TestCase):

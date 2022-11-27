@@ -423,7 +423,7 @@ def CoopTestCase(other_base_class):
     import google3
     import mox
 
-    from google3.testing.pybase import parameterized
+    from _google..testing.pybase import parameterized
 
     class ExampleTest(parameterized.CoopTestCase(mox.MoxTestBase)):
       ...

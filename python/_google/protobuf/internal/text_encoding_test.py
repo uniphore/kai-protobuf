@@ -32,7 +32,7 @@
 
 import unittest
 
-from google.protobuf import text_encoding
+from _google.protobuf import text_encoding
 
 TEST_VALUES = [
     ("foo\\rbar\\nbaz\\t",

@@ -33,11 +33,11 @@
 import collections
 import unittest
 
-from google.protobuf import descriptor_pb2  # pylint: disable=g-import-not-at-top
-from google.protobuf import descriptor
-from google.protobuf import descriptor_pool
-from google.protobuf import proto_builder
-from google.protobuf import text_format
+from _google.protobuf import descriptor_pb2  # pylint: disable=g-import-not-at-top
+from _google.protobuf import descriptor
+from _google.protobuf import descriptor_pool
+from _google.protobuf import proto_builder
+from _google.protobuf import text_format
 
 
 class ProtoBuilderTest(unittest.TestCase):

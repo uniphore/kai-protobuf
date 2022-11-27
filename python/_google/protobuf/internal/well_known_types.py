@@ -44,7 +44,7 @@ import calendar
 import collections.abc
 import datetime
 
-from google.protobuf.internal import field_mask
+from _google.protobuf.internal import field_mask
 
 FieldMask = field_mask.FieldMask
 

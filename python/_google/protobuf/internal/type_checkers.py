@@ -48,10 +48,10 @@ __author__ = 'robinson@google.com (Will Robinson)'
 import ctypes
 import numbers
 
-from google.protobuf.internal import decoder
-from google.protobuf.internal import encoder
-from google.protobuf.internal import wire_format
-from google.protobuf import descriptor
+from _google.protobuf.internal import decoder
+from _google.protobuf.internal import encoder
+from _google.protobuf.internal import wire_format
+from _google.protobuf import descriptor
 
 _FieldDescriptor = descriptor.FieldDescriptor
 

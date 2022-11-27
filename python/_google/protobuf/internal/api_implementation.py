@@ -50,7 +50,7 @@ def _ApiVersionToImplementationType(api_version):
 _implementation_type = None
 try:
   # pylint: disable=g-import-not-at-top
-  from google.protobuf.internal import _api_implementation
+  from _google.protobuf.internal import _api_implementation
   # The compile-time constants in the _api_implementation module can be used to
   # switch to a certain implementation of the Python API at build time.
   _implementation_type = _ApiVersionToImplementationType(
@@ -101,7 +101,7 @@ _c_module = None
 if _implementation_type == 'cpp':
   try:
     # pylint: disable=g-import-not-at-top
-    from google.protobuf.pyext import _message
+    from _google.protobuf.pyext import _message
     _c_module = _message
     del _message
   except ImportError:
@@ -113,7 +113,7 @@ if _implementation_type == 'cpp':
 if _implementation_type == 'upb':
   try:
     # pylint: disable=g-import-not-at-top
-    from google._upb import _message
+    from _google._upb import _message
     _c_module = _message
     del _message
   except ImportError:
@@ -137,7 +137,7 @@ try:
   # this boolean outside of this module.
   #
   # pylint: disable=g-import-not-at-top,unused-import
-  from google.protobuf import enable_deterministic_proto_serialization
+  from _google.protobuf import enable_deterministic_proto_serialization
   _python_deterministic_proto_serialization = True
 except ImportError:
   _python_deterministic_proto_serialization = False

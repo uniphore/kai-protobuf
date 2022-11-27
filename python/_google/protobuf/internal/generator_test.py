@@ -41,16 +41,16 @@ __author__ = 'robinson@google.com (Will Robinson)'
 
 import unittest
 
-from google.protobuf.internal import test_bad_identifiers_pb2
-from google.protobuf import service
-from google.protobuf import symbol_database
-from google.protobuf import unittest_import_pb2
-from google.protobuf import unittest_import_public_pb2
-from google.protobuf import unittest_mset_pb2
-from google.protobuf import unittest_mset_wire_format_pb2
-from google.protobuf import unittest_pb2
-from google.protobuf import unittest_custom_options_pb2
-from google.protobuf import unittest_no_generic_services_pb2
+from _google.protobuf.internal import test_bad_identifiers_pb2
+from _google.protobuf import service
+from _google.protobuf import symbol_database
+from _google.protobuf import unittest_import_pb2
+from _google.protobuf import unittest_import_public_pb2
+from _google.protobuf import unittest_mset_pb2
+from _google.protobuf import unittest_mset_wire_format_pb2
+from _google.protobuf import unittest_pb2
+from _google.protobuf import unittest_custom_options_pb2
+from _google.protobuf import unittest_no_generic_services_pb2
 
 MAX_EXTENSION = 536870912
 

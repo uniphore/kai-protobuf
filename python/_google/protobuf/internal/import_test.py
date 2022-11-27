@@ -33,7 +33,7 @@
 
 import unittest
 
-from google.protobuf.internal.import_test_package import outer_pb2
+from _google.protobuf.internal.import_test_package import outer_pb2
 
 
 class ImportTest(unittest.TestCase):

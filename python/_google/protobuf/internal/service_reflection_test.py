@@ -35,9 +35,9 @@ __author__ = 'petar@google.com (Petar Petrov)'
 
 import unittest
 
-from google.protobuf import service_reflection
-from google.protobuf import service
-from google.protobuf import unittest_pb2
+from _google.protobuf import service_reflection
+from _google.protobuf import service
+from _google.protobuf import unittest_pb2
 
 
 class FooUnitTest(unittest.TestCase):

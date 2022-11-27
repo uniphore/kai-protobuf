@@ -34,14 +34,14 @@ __author__ = 'matthewtoia@google.com (Matt Toia)'
 
 import unittest
 
-from google.protobuf import descriptor_pb2
-from google.protobuf.internal import api_implementation
-from google.protobuf.internal import factory_test1_pb2
-from google.protobuf.internal import factory_test2_pb2
-from google.protobuf.internal import testing_refleaks
-from google.protobuf import descriptor_database
-from google.protobuf import descriptor_pool
-from google.protobuf import message_factory
+from _google.protobuf import descriptor_pb2
+from _google.protobuf.internal import api_implementation
+from _google.protobuf.internal import factory_test1_pb2
+from _google.protobuf.internal import factory_test2_pb2
+from _google.protobuf.internal import testing_refleaks
+from _google.protobuf import descriptor_database
+from _google.protobuf import descriptor_pool
+from _google.protobuf import message_factory
 
 
 @testing_refleaks.TestCase

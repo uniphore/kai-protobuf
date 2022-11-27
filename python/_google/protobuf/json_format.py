@@ -51,9 +51,9 @@ from operator import methodcaller
 import re
 import sys
 
-from google.protobuf.internal import type_checkers
-from google.protobuf import descriptor
-from google.protobuf import symbol_database
+from _google.protobuf.internal import type_checkers
+from _google.protobuf import descriptor
+from _google.protobuf import symbol_database
 
 
 _TIMESTAMPFOMAT = '%Y-%m-%dT%H:%M:%S'

@@ -31,8 +31,8 @@
 """Contains _ExtensionDict class to represent extensions.
 """
 
-from google.protobuf.internal import type_checkers
-from google.protobuf.descriptor import FieldDescriptor
+from _google.protobuf.internal import type_checkers
+from _google.protobuf.descriptor import FieldDescriptor
 
 
 def _VerifyExtensionHandle(message, extension_handle):

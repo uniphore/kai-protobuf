@@ -76,7 +76,7 @@ else:
 
 
 def GetVersion():
-  """Reads and returns the version from google/protobuf/__init__.py.
+  """Reads and returns the version from _google.protobuf/__init__.py.
 
   Do not import google.protobuf.__init__ directly, because an installed
   protobuf library may be loaded instead.
