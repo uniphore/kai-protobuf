@@ -32,7 +32,7 @@ syntax = "proto2";
 
 package google.protobuf.python.internal;
 
-import "_google/protobuf/descriptor.proto";
+import "google/protobuf/descriptor.proto";
 
 message FooOptions {
   optional string foo_name = 1;
