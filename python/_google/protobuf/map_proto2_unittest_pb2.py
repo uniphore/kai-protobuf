@@ -3,15 +3,15 @@
 # source: google/protobuf/map_proto2_unittest.proto
 """Generated protocol buffer code."""
 from _google.protobuf.internal import builder as _builder
-from google.protobuf import descriptor as _descriptor
-from google.protobuf import descriptor_pool as _descriptor_pool
-from google.protobuf import symbol_database as _symbol_database
+from _google.protobuf import descriptor as _descriptor
+from _google.protobuf import descriptor_pool as _descriptor_pool
+from _google.protobuf import symbol_database as _symbol_database
 # @@protoc_insertion_point(imports)
 
 _sym_db = _symbol_database.Default()
 
 
-from google.protobuf import unittest_import_pb2 as google_dot_protobuf_dot_unittest__import__pb2
+from _google.protobuf import unittest_import_pb2 as google_dot_protobuf_dot_unittest__import__pb2
 try:
   google_dot_protobuf_dot_unittest__import__public__pb2 = google_dot_protobuf_dot_unittest__import__pb2.google_dot_protobuf_dot_unittest__import__public__pb2
 except AttributeError:

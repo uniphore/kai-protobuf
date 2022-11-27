@@ -3,15 +3,15 @@
 # source: google/protobuf/unittest_mset.proto
 """Generated protocol buffer code."""
 from _google.protobuf.internal import builder as _builder
-from google.protobuf import descriptor as _descriptor
-from google.protobuf import descriptor_pool as _descriptor_pool
-from google.protobuf import symbol_database as _symbol_database
+from _google.protobuf import descriptor as _descriptor
+from _google.protobuf import descriptor_pool as _descriptor_pool
+from _google.protobuf import symbol_database as _symbol_database
 # @@protoc_insertion_point(imports)
 
 _sym_db = _symbol_database.Default()
 
 
-from google.protobuf import unittest_mset_wire_format_pb2 as google_dot_protobuf_dot_unittest__mset__wire__format__pb2
+from _google.protobuf import unittest_mset_wire_format_pb2 as google_dot_protobuf_dot_unittest__mset__wire__format__pb2
 
 
 DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#google/protobuf/unittest_mset.proto\x12\x11protobuf_unittest\x1a/google/protobuf/unittest_mset_wire_format.proto\"Z\n\x17TestMessageSetContainer\x12?\n\x0bmessage_set\x18\x01 \x01(\x0b\x32*.proto2_wireformat_unittest.TestMessageSet\"\x9f\x01\n\x1dNestedTestMessageSetContainer\x12=\n\tcontainer\x18\x01 \x01(\x0b\x32*.protobuf_unittest.TestMessageSetContainer\x12?\n\x05\x63hild\x18\x02 \x01(\x0b\x32\x30.protobuf_unittest.NestedTestMessageSetContainer\"V\n\rNestedTestInt\x12\t\n\x01\x61\x18\x01 \x01(\x07\x12\t\n\x01\x62\x18\x03 \x01(\x05\x12/\n\x05\x63hild\x18\x02 \x01(\x0b\x32 .protobuf_unittest.NestedTestInt\"\xf9\x01\n\x18TestMessageSetExtension1\x12\t\n\x01i\x18\x0f \x01(\x05\x12=\n\trecursive\x18\x10 \x01(\x0b\x32*.proto2_wireformat_unittest.TestMessageSet\x12\x19\n\rtest_aliasing\x18\x11 \x01(\tB\x02\x08\x02\x32x\n\x15message_set_extension\x12*.proto2_wireformat_unittest.TestMessageSet\x18\xb0\xa6^ \x01(\x0b\x32+.protobuf_unittest.TestMessageSetExtension1\"\xa1\x01\n\x18TestMessageSetExtension2\x12\x0b\n\x03str\x18\x19 \x01(\t2x\n\x15message_set_extension\x12*.proto2_wireformat_unittest.TestMessageSet\x18\xf9\xbb^ \x01(\x0b\x32+.protobuf_unittest.TestMessageSetExtension2\"\xc4\x01\n\x18TestMessageSetExtension3\x12-\n\x03msg\x18# \x01(\x0b\x32 .protobuf_unittest.NestedTestInt2y\n\x15message_set_extension\x12*.proto2_wireformat_unittest.TestMessageSet\x18\xa9\xc3\x8e] \x01(\x0b\x32+.protobuf_unittest.TestMessageSetExtension3\"n\n\rRawMessageSet\x12\x33\n\x04item\x18\x01 \x03(\n2%.protobuf_unittest.RawMessageSet.Item\x1a(\n\x04Item\x12\x0f\n\x07type_id\x18\x02 \x02(\x05\x12\x0f\n\x07message\x18\x03 \x02(\x0c\x42\x05H\x01\xf8\x01\x01')

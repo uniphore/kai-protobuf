@@ -3,15 +3,15 @@
 # source: _google/protobuf/internal/file_options_test.proto
 """Generated protocol buffer code."""
 from _google.protobuf.internal import builder as _builder
-from google.protobuf import descriptor as _descriptor
-from google.protobuf import descriptor_pool as _descriptor_pool
-from google.protobuf import symbol_database as _symbol_database
+from _google.protobuf import descriptor as _descriptor
+from _google.protobuf import descriptor_pool as _descriptor_pool
+from _google.protobuf import symbol_database as _symbol_database
 # @@protoc_insertion_point(imports)
 
 _sym_db = _symbol_database.Default()
 
 
-from google.protobuf import descriptor_pb2 as google_dot_protobuf_dot_descriptor__pb2
+from _google.protobuf import descriptor_pb2 as google_dot_protobuf_dot_descriptor__pb2
 
 
 DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n1_google/protobuf/internal/file_options_test.proto\x12\x1fgoogle.protobuf.python.internal\x1a google/protobuf/descriptor.proto\"\x1e\n\nFooOptions\x12\x10\n\x08\x66oo_name\x18\x01 \x01(\t:a\n\x0b\x66oo_options\x12\x1c.google.protobuf.FileOptions\x18\xac\xec\xb6\x39 \x01(\x0b\x32+.google.protobuf.python.internal.FooOptions')

@@ -3,15 +3,15 @@
 # source: _google/protobuf/internal/any_test.proto
 """Generated protocol buffer code."""
 from _google.protobuf.internal import builder as _builder
-from google.protobuf import descriptor as _descriptor
-from google.protobuf import descriptor_pool as _descriptor_pool
-from google.protobuf import symbol_database as _symbol_database
+from _google.protobuf import descriptor as _descriptor
+from _google.protobuf import descriptor_pool as _descriptor_pool
+from _google.protobuf import symbol_database as _symbol_database
 # @@protoc_insertion_point(imports)
 
 _sym_db = _symbol_database.Default()
 
 
-from google.protobuf import any_pb2 as google_dot_protobuf_dot_any__pb2
+from _google.protobuf import any_pb2 as google_dot_protobuf_dot_any__pb2
 
 
 DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(_google/protobuf/internal/any_test.proto\x12\x19_google.protobuf.internal\x1a\x19google/protobuf/any.proto\"\xc1\x01\n\x07TestAny\x12#\n\x05value\x18\x01 \x01(\x0b\x32\x14.google.protobuf.Any\x12\x11\n\tint_value\x18\x02 \x01(\x05\x12\x43\n\tmap_value\x18\x03 \x03(\x0b\x32\x30._google.protobuf.internal.TestAny.MapValueEntry\x1a/\n\rMapValueEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01*\x08\x08\n\x10\x80\x80\x80\x80\x02\"\x87\x01\n\x11TestAnyExtension1\x12\t\n\x01i\x18\x0f \x01(\x05\x32g\n\nextension1\x12\"._google.protobuf.internal.TestAny\x18\xab\xff\xf6. \x01(\x0b\x32,._google.protobuf.internal.TestAnyExtension1')
