@@ -37,4 +37,4 @@ package google.protobuf.python.internal.import_test_package;
 option optimize_for = SPEED;
 
 // Test nested public import
-import public "google/protobuf/internal/import_test_package/import_public_nested.proto";
+import public "_google/protobuf/internal/import_test_package/import_public_nested.proto";
