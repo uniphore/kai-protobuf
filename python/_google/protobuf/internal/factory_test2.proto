@@ -34,7 +34,7 @@ syntax = "proto2";
 
 package google.protobuf.python.internal;
 
-import "google/protobuf/internal/factory_test1.proto";
+import "_google/protobuf/internal/factory_test1.proto";
 
 enum Factory2Enum {
   FACTORY_2_VALUE_0 = 0;

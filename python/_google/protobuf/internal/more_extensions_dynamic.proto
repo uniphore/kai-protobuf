@@ -38,7 +38,7 @@ syntax = "proto2";
 
 package google.protobuf.internal;
 
-import "google/protobuf/internal/more_extensions.proto";
+import "_google/protobuf/internal/more_extensions.proto";
 
 message DynamicMessageType {
   optional int32 a = 1;

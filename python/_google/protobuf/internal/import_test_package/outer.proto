@@ -32,7 +32,7 @@ syntax = "proto2";
 
 package google.protobuf.python.internal.import_test_package;
 
-import "google/protobuf/internal/import_test_package/inner.proto";
+import "_google/protobuf/internal/import_test_package/inner.proto";
 
 message Outer {
   optional Inner inner = 1;
